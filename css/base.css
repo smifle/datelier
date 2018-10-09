@@ -492,6 +492,25 @@ h1.caption span {
   padding-left: 20px !important;
   padding-right: 20px !important;
   background-color: #e3e3e3 !important; }
+#section_works #awards {
+  margin: 0 0 80px 0;
+  padding: 0 10%; }
+#section_works #awards .title {
+  text-align: center;
+  line-height: 2;
+  font-size: 1.6rem;
+  font-weight: bold; }
+#section_works #awards .awardsList {
+  margin-top: 20px; }
+#section_works #awards .awardsList li {
+  margin-top: .6rem;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.8; }
+#section_works #awards .awardsList li span {
+  margin: 0 0.5em;
+  display: inline-block;
+  white-space: nowrap; }
 #section_works #worksList li {
   float: left;
   margin: 0 0 20px 0; }

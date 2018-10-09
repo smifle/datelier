@@ -1,0 +1,5 @@
+{
+  "name":"Compile Compass",
+  "cmd":"compass",
+  "args":["compile"]
+}
