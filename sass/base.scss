@@ -626,6 +626,35 @@ h1.caption {
 	padding-right: 20px !important;
 	background-color: #e3e3e3 !important;
 
+	#awards {
+		margin: 0 0 80px 0;
+		padding: 0 10%;
+
+		.title {
+			text-align: center;
+			line-height: 2;
+			font-size: 1.6rem;
+			font-weight: bold;
+		}
+
+		.awardsList {
+			margin-top: 20px;
+
+			li {
+				margin-top: .6rem;
+				text-align: center;
+				font-size: 1.3rem;
+				line-height: 1.8;
+
+				span {
+					margin:0 0.5em;
+					display:inline-block;
+					white-space: nowrap;
+				}
+			}
+		}
+	}
+
 	#worksList {
 		@extend .row;
 		@extend %cf;
@@ -2097,17 +2126,3 @@ Span 12:    100%
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
